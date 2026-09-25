@@ -1,0 +1,4 @@
+[build]
+  base = "pokemon"
+  command = "npm install && npm run build"
+  publish = "build"
