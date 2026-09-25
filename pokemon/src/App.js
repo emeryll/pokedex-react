@@ -33,7 +33,7 @@ export default function App() {
   const [offset, setOffset] = useState(0);
   const [totalCount, setTotalCount] = useState(0);
   const [loadingMore, setLoadingMore] = useState(false);
-  const [searchingApi, setSearchingApi] = useState(false);
+  const [, setSearchingApi] = useState(false);
   const [apiSearchResult, setApiSearchResult] = useState(null);
   const [searchError, setSearchError] = useState(null);
 
